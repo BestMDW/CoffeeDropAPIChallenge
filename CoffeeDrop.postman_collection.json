@@ -12,9 +12,7 @@
 				"method": "GET",
 				"header": [],
 				"body": {},
-				"url": {
-					"raw": ""
-				},
+				"url": "http://127.0.0.1:8000/api/GetNearestLocation/B98 8QY",
 				"description": "Returns the address and opening times of the nearest CoffeeDrop location"
 			},
 			"response": []
@@ -33,9 +31,7 @@
 					"mode": "raw",
 					"raw": "{\n      \"postcode\": \"CV313PP\",\n      \"opening_times\": {\"monday\" : \"09:00\", \"tuesday\" : \"09:00\", \"saturday\" : \"08:30\"},\n      \"closing_times\": {\"monday\" : \"19:00\", \"tuesday\" : \"19:00\", \"saturday\" : \"18:30\"}\n}\n\n"
 				},
-				"url": {
-					"raw": ""
-				},
+				"url": "http://127.0.0.1:8000/api/CreateNewLocation",
 				"description": ""
 			},
 			"response": []
@@ -54,9 +50,7 @@
 					"mode": "raw",
 					"raw": "{\n      \"Ristretto\": 10,\n      \"Espresso\": 100,\n      \"Lungo\":30\n}\n\n"
 				},
-				"url": {
-					"raw": ""
-				},
+				"url": "http://127.0.0.1:8000/api/CalculateCashback",
 				"description": ""
 			},
 			"response": []

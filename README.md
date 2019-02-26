@@ -1,3 +1,6 @@
+# Serve
+Please run php artisan serve to query postman requests.
+
 # Coffee Drop API
 This task requires you to build a JSON API. HTML, CSS and Javascript work will be reviewed but is entirely optional.
  
